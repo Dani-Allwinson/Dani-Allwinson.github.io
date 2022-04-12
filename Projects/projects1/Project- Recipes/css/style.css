@@ -1,7 +1,24 @@
+@font-face {
+    font-family: myFirstFont;
+    src: url(../font/Hagrid-Light.otf);
+  }
+
+
 *{
     padding:0px 10px;
-    font-family: verdana;
+    font-family: myFirstFont;
+    background: url(../img/Background.png) no-repeat center center fixed ;
+}
 
-    background: url(../img/Background.png) no-repeat center center fixed;
+#name{
+    padding-top: 418px;
+    padding-left: 198px;
+    font-size: 30px;
+}
+#name1{
+    font-size: 15px;
+    padding-left: 198px;
+    margin-top: -20px;
+    font-weight: bold;
 }
 
