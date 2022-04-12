@@ -11,7 +11,7 @@
 }
 
 #name{
-    padding-top: 418px;
+    padding-top: 420px;
     padding-left: 198px;
     font-size: 30px;
 }
@@ -20,5 +20,46 @@
     padding-left: 198px;
     margin-top: -20px;
     font-weight: bold;
+}
+#logo{
+    /*padding-top: 30px;
+    width: 50px;
+    background-repeat: no-repeat fixed;
+    background-attachment: fixed;*/
+    display: inline;
+  margin: 10px; 
+  float: left;
+  height: 60px;
+  width: auto; 
+  border-radius: 50%;
+    
+}
+.nav {
+    background:transparent; 
+    list-style-type: none;
+    text-align: center;
+    margin: 0;
+    padding: 0px;
+    padding-right: 30px;
+  }
+  
+  .nav li {
+    display: inline;
+    font-size: 15px;
+    padding-top: 30px;
+    float: right;
+    padding-right: 30px;
+    
+  }
+
+
+a:link{
+    text-decoration: none;
+}
+a:visited{
+    color: white;
+}
+a:hover{
+    color: black;
 }
 
