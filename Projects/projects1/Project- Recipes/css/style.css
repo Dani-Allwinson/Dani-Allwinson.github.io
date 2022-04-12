@@ -14,13 +14,18 @@
     padding-top: 420px;
     padding-left: 198px;
     font-size: 30px;
+    cursor: default;
+    border: transparent;
 }
 #name1{
     font-size: 15px;
     padding-left: 198px;
     margin-top: -20px;
     font-weight: bold;
+    cursor: default;
+    border: transparent;
 }
+
 #logo{
     /*padding-top: 30px;
     width: 50px;
@@ -29,9 +34,12 @@
     display: inline;
   margin: 10px; 
   float: left;
-  height: 60px;
+  height: 70px;
   width: auto; 
-  border-radius: 50%;
+  border: 0;
+  position: relative;
+
+  
     
 }
 .nav {
