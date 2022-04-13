@@ -1,0 +1,24 @@
+@font-face {
+    font-family: myFirstFont;
+    src: url(../font/Hagrid-Light.otf);
+  }
+
+
+*{
+    padding:10px 20px;
+    font-family: myFirstFont;
+    background-color: black ;
+}
+p{
+    color: white;
+    font-size: 50px;
+}
+#gmail{
+    padding-left: 40px;
+    height: 40px;
+    width:auto;
+}
+#linkedin{
+    height: 40px;
+    width:auto;
+}
