@@ -7,7 +7,8 @@
 *{
     padding:0px 10px;
     font-family: myFirstFont;
-    background: url(../img/Background.png) no-repeat center center fixed ;
+    background: url(../img/Background.png) no-repeat center center fixed;
+    
 }
 
 #name{
@@ -45,10 +46,12 @@
 .nav {
     background:transparent; 
     list-style-type: none;
-    text-align: center;
+    text-align: right;
     margin: 0;
     padding: 0px;
-    padding-right: 30px;
+    float: right;
+    padding-left: 600px;
+    
   }
   
   .nav li {
@@ -56,7 +59,7 @@
     font-size: 15px;
     padding-top: 30px;
     float: right;
-    padding-right: 30px;
+    padding-left: 50px;
     
   }
 
